@@ -1,0 +1,4 @@
+repository "Snow Land@wasickkk@cloud"
+  path "/"
+    br "/main"
+    co "/main"
