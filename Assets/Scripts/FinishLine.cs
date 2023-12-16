@@ -11,6 +11,7 @@ public class FinishLine : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         finish_effect.Play();
+        GetComponent<AudioSource>().Play();
         Invoke("Delay_time",delay);
     }
     void Delay_time(){
